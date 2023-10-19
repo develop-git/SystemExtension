@@ -1,0 +1,22 @@
+{
+  "name": "SystemExtension",
+  "version": "0.1.0",
+  "summary": "A short description of SystemExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FullStack-Jian/SystemExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FullStack-Jian": "89860307+develop-git@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/FullStack-Jian/SystemExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SystemExtension/Classes/**/*"
+}

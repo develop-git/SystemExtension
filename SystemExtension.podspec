@@ -7,36 +7,25 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SystemExtension'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SystemExtension.'
+   s.name = 'SystemExtension'
+   s.version = '1.0.0'
+   s.license = 'MIT'
+   s.summary = 'Foundation、UIKit 链式编程扩展'
+   s.homepage = 'https://github.com/develop-git/SystemExtension'
+   s.authors = { 'jianli' => 'develop-work@outlook.com' }
+   s.source = { :git => 'git@github.com:develop-git/SystemExtension.git', :tag => s.version.to_s }
+   #s.documentation_url = ''
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+   s.requires_arc = true
+   
+   s.ios.deployment_target = '10.0'
+   s.tvos.deployment_target = '10.0'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+   s.swift_versions = ['5.1']
 
-  s.homepage         = 'https://github.com/FullStack-Jian/SystemExtension'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'FullStack-Jian' => '89860307+develop-git@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/FullStack-Jian/SystemExtension.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.source_files = 'Source/**/*.swift'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'SystemExtension/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SystemExtension' => ['SystemExtension/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-end
+   s.xcconfig = {
+       'LIBRARY_SEARCH_PATHS' => '$(SDKROOT)/usr/lib/swift',
+   }
+ end

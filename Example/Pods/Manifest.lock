@@ -1,0 +1,16 @@
+PODS:
+  - SystemExtension (0.1.0)
+
+DEPENDENCIES:
+  - SystemExtension (from `../`)
+
+EXTERNAL SOURCES:
+  SystemExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SystemExtension: ce4ee29147cf0181479b82d7c3f91c2547177593
+
+PODFILE CHECKSUM: 438cf07551ecef84505f554f22d5cb7baa946383
+
+COCOAPODS: 1.13.0

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
    s.name = 'SystemExtension'
-   s.version = '1.0.0'
+   s.version = '1.1.0'
    s.license = 'MIT'
    s.summary = 'Foundation、UIKit 链式编程扩展'
    s.homepage = 'https://github.com/develop-git/SystemExtension'

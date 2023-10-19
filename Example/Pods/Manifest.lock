@@ -1,5 +1,5 @@
 PODS:
-  - SystemExtension (0.1.0)
+  - SystemExtension (1.0.0)
 
 DEPENDENCIES:
   - SystemExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SystemExtension: ce4ee29147cf0181479b82d7c3f91c2547177593
+  SystemExtension: e10996b2e98ced728e50c590a6ef932664b69699
 
 PODFILE CHECKSUM: 438cf07551ecef84505f554f22d5cb7baa946383
 

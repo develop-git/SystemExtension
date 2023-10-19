@@ -1,5 +1,4 @@
 import XCTest
-import SystemExtension
 
 class Tests: XCTestCase {
     

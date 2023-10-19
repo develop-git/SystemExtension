@@ -2,6 +2,25 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```ruby
+import SystemExtension
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        view.set.background(.purple2)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+}
+```
+
 ## Requirements
 ```ruby
 iOS 10.0、tvOS 10.0
